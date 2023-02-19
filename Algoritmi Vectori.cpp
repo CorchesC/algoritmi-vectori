@@ -13,7 +13,9 @@ int main()
 	//cin >> nou;
 	//inserarePozitie(v, d, p,nou);
 	//afisare(v, d);
-	int x[100], n = 0;
-	citire(x, n);
-	secventiere(x, n);
+	//int x[100], n = 0;
+	//citire(x, n);
+	//secventiere(x, n);
+
+	ex1();
 }

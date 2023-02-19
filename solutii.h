@@ -3,5 +3,20 @@
 using namespace std;
 
 void ex1() {
-	//Se dă un vector format din n elemente, numere naturale. Calculați suma elementelor din secvența determinată de primul și ultimul element impar.
+	
+
+
+	int f[10]{};
+
+
+	frecventaCifre(f, 11234456);
+
+
+	for (int i = 0; i < 10; i++) {
+
+		if (f[i] != 0) {
+
+			cout << i << " apare de  " << f[i] << " ori" << endl;
+		}
+	}
 }

@@ -201,28 +201,18 @@ void secventiere(int x[],int n) {
 	cout << smax << " (SMAX) " << endl;
 	cout << dmax << " (DMAX) " << endl;
 }
-int primulElementImpar(int v[], int dim) {
-	int eimp = 0;
-	for (int i = 0; i < dim; i++) {
-		if ()
+
+
+void frecventaCifre(int f[], int nr) {
+
+
+	while (nr != 0) {
+
+		f[nr % 10]++;
+
+		nr = nr / 10;
 	}
-}
-void primulElementImparSiUltimuPar(int v[], int dim) {
-	int preimp = -1;
-	int uepar = -1;
 
-	for (int i = 0; i < dim; i++) {
-		if (v[i] % 2 != 0 && v[i] < emin) {
-			int j = i;
-			while (j + 1 < dim && v[j + 1] % 2 == 0) {
-				j++;
-			}
-			if (j - i + 1 > dmax - smax + 1) {
-				smax = i, dmax = j;
 
-			}
 
-		}
-
-	}
 }
